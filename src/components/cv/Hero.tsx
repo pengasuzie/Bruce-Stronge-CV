@@ -38,7 +38,7 @@ const Hero = () => {
             >
               <div className="relative">
                 <img
-                  src="/bruce-profile.jpg"
+                  src={`${import.meta.env.BASE_URL}bruce-profile.jpg`}
                   alt="Bruce Stronge - LinkedIn Profile"
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-strong transition-smooth group-hover:scale-105 group-hover:shadow-[0_20px_60px_-12px_rgba(255,255,255,0.4)]"
                 />
