@@ -29,18 +29,24 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-primary hover:bg-white/90 shadow-strong font-medium"
-              asChild
+          <div className="flex flex-col items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
+            <a
+              href="https://linkedin.com/in/bruces"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group"
             >
-              <a href="https://linkedin.com/in/bruces" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                <Linkedin className="w-5 h-5" />
-                LinkedIn
-              </a>
-            </Button>
+              <div className="relative">
+                <img
+                  src="/bruce-profile.jpg"
+                  alt="Bruce Stronge - LinkedIn Profile"
+                  className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-strong transition-smooth group-hover:scale-105 group-hover:shadow-[0_20px_60px_-12px_rgba(255,255,255,0.4)]"
+                />
+                <div className="absolute bottom-2 right-2 bg-[#0A66C2] rounded-full p-2 border-2 border-white shadow-medium group-hover:scale-110 transition-smooth">
+                  <Linkedin className="w-5 h-5 text-white" />
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
