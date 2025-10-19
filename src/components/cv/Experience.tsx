@@ -16,7 +16,7 @@ const experiences = [
       "Hired and developed high-performing teams in software development, sales, customer success, finance and operations",
       "Secured enterprise clients including Commonwealth Bank of Australia, Bendigo Bank, Deakin University and Monash University",
       "Delivered enterprise projects successfully to strict timelines and budgets, with clients spending up to A$500k per year",
-      "Raised approximately A$20M in venture capital from Australian and US investors",
+      "Raised approximately A$20m in venture capital from Australian and US investors",
       "Expanded business into UK and US markets, navigating complex legal and corporate structures",
       "Successfully sold company to NYSE-listed Smartsheet in Seattle in 2022"
     ]
@@ -24,6 +24,7 @@ const experiences = [
   {
     title: "Founder & CEO",
     company: "NetEngine",
+    acquisition: "Sold",
     location: "Brisbane, Australia",
     period: "Nov 2007 - Feb 2017",
     duration: "9 years 4 months",
