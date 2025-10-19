@@ -22,7 +22,7 @@ const About = () => {
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                 Throughout my career, I've developed expertise in <strong className="text-foreground">enterprise software sales</strong>, 
                 securing major clients including Commonwealth Bank of Australia, Bendigo Bank, Deakin University, and Monash University. 
-                I raised approximately <strong className="text-foreground">A$20 million in venture capital</strong> from Australian and 
+                I raised approximately <strong className="text-foreground">A$20m in venture capital</strong> from Australian and 
                 US investors, and successfully expanded operations into the UK and US markets.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
